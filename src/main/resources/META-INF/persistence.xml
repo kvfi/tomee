@@ -24,11 +24,11 @@
   <persistence-unit name="blog">
     <jta-data-source>jdbc/blog</jta-data-source>
     <non-jta-data-source>jdbc/blog-unmanaged</non-jta-data-source>
-    <class>org.superbiz.rest.model.User</class>
-    <class>org.superbiz.rest.model.Post</class>
-    <class>org.superbiz.rest.model.Comment</class>
-    <class>org.superbiz.rest.model.Model</class>
-    <class>org.superbiz.rest.model.DatedModel</class>
+    <class>ma.sii.workshop.tomee.rest.model.User</class>
+    <class>ma.sii.workshop.tomee.rest.model.Post</class>
+    <class>ma.sii.workshop.tomee.rest.model.Comment</class>
+    <class>ma.sii.workshop.tomee.rest.model.Model</class>
+    <class>ma.sii.workshop.tomee.rest.model.DatedModel</class>
     <properties>
       <property name="openjpa.jdbc.SynchronizeMappings" value="buildSchema(ForeignKeys=true)"/>
     </properties>
